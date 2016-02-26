@@ -33,7 +33,8 @@ public class DollarTest {
     public void testEquality(){
         assertTrue(new Dollar(5).equals(new Dollar(5)));
         assertFalse(new Dollar(5).equals(new Dollar(6)));
-        assertTrue(new Dollar(5).times(3).equals(new Dollar(15)));
+        assertTrue(new Frank(5).equals(new Frank(5)));
+        assertFalse(new Frank(5).equals(new Frank(6)));
     }
 
 
