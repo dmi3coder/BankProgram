@@ -5,4 +5,6 @@ package ru.dmi3coder.bankprogramm;
  */
 public interface Expression {
 
+    Money reduce(String to);
+
 }
